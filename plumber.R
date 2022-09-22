@@ -9,6 +9,7 @@
 
 library(plumber)
 library(epanetReader)
+library(tidyr)
 
 n1 <- read.inp("~/Projects/LeakDB/CCWI-WDSA2018/Benchmarks/Hanoi_CMH/Scenario-1/Hanoi_CMH_Scenario-1.inp")
 
