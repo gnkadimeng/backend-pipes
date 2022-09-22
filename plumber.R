@@ -8,6 +8,9 @@
 #
 
 library(plumber)
+library(epanetReader)
+
+n1 <- read.inp("~/Projects/LeakDB/CCWI-WDSA2018/Benchmarks/Hanoi_CMH/Scenario-1/Hanoi_CMH_Scenario-1.inp")
 
 #* @apiTitle Water Pipes Meta Data API
 #* @apiDescription Components of the pipes include material roughness and diameter 
